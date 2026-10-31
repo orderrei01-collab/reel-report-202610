@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>リール動画レポート（9/28〜10/31）</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@600&display=swap">
+<style>body{margin:0}
+/* 一列の読み物＋操作できる一覧。撮影の現場の「撮影者・演者・撮影方法」が主役。流れ＝赤 */
+:root{--bg:#f6f5f2;--panel:#ffffff;--line:#e2dfd8;--fg:#1b1a17;--sub:#6c6860;--red:#c8322c;--ok:#1f7a4d;--warn:#a46a00;--bar:#b9b4aa;
+ --f:"Noto Sans JP","Hiragino Sans",sans-serif;--fs:"Noto Serif JP","Hiragino Mincho ProN",serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141413;--panel:#1d1c1a;--line:#33312d;--fg:#f1efe9;--sub:#a29d93;--red:#ff5a4f;--ok:#4cc38a;--warn:#e0a83e;--bar:#5a5750;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141413;--panel:#1d1c1a;--line:#33312d;--fg:#f1efe9;--sub:#a29d93;--red:#ff5a4f;--ok:#4cc38a;--warn:#e0a83e;--bar:#5a5750;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f);font-size:15px;line-height:1.7;font-variant-numeric:tabular-nums}
+.w{max-width:1180px;margin:0 auto;padding-block:28px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+h1{font-family:var(--fs);font-weight:600;font-size:clamp(24px,4vw,34px);margin:0;line-height:1.3}
+.sub{color:var(--sub);font-size:13px;margin:4px 0 0}
+.take{margin:0;max-width:60em}.take b{color:var(--red)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr));gap:10px}
+.tile,.card{background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.tile{padding:12px 14px}.tile span{display:block;font-size:12px;color:var(--sub)}.tile b{font-family:var(--fs);font-weight:600;font-size:24px}
+.card{padding:18px;min-width:0}.card h2{font-size:17px;margin:0;font-weight:700}.card .note{color:var(--sub);font-size:12.5px;margin:4px 0 12px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tab{border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:7px 14px;font:inherit;font-size:13px;cursor:pointer;text-align:left;line-height:1.4}
+.tab small{display:block;color:var(--sub)}.tab[aria-selected=true]{background:var(--fg);color:var(--bg);border-color:var(--fg)}.tab[aria-selected=true] small{color:var(--bg);opacity:.75}
+.tab:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,8rem),1fr));gap:8px;margin-bottom:14px}
+.sum div{border:1px solid var(--line);border-radius:6px;padding:8px 10px}.sum span{display:block;font-size:12px;color:var(--sub)}.sum b{font-family:var(--fs);font-weight:600;font-size:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,15rem),1fr));gap:12px}
+.rc{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--bg);display:flex;flex-direction:column;min-width:0}
+.rc.flow{border:2px solid var(--red)}
+.rc img{display:block;width:100%;max-width:100%;aspect-ratio:9/16;max-height:22rem;object-fit:cover;background:var(--line)}
+.rc .bd{padding:10px 12px;display:grid;gap:6px}
+.rc .tt{font-size:13px;font-weight:700;line-height:1.5}.rc .tt a{color:inherit}
+.rc .mt,.rc .pat{font-size:12px;color:var(--sub)}.rc .pat b{color:var(--fg);font-weight:600}.rc .pat .fl{color:var(--red)}
+.rc .big{font-family:var(--fs);font-size:24px;font-weight:600;line-height:1.1}
+.rc dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:0;font-size:12.5px}.rc dt{color:var(--sub)}.rc dd{margin:0;text-align:right}
+.tbox{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:720px}
+th,td{padding:8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th{color:var(--sub);font-weight:500}th.l,td.l{text-align:left}
+tr.flow td:nth-child(3){color:var(--red);font-weight:700}
+.bar{display:inline-block;height:8px;border-radius:2px;margin-left:6px;vertical-align:middle;background:var(--bar)}tr.flow .bar{background:var(--red)}
+.hyp{display:grid;gap:14px}.q{font-weight:700}.a{margin:2px 0 0}.ok{color:var(--ok);font-weight:700}.mid{color:var(--warn);font-weight:700}
+.defs{margin:0;padding-left:1.2em;color:var(--sub);font-size:13px}
+</style>
+</head><body>
+<div class="w">
+  <header><h1>リール動画レポート（9/28〜10/31）</h1>
+  <p class="sub">Instagram（rei_official01）のリール16本・数字は2026/10/31 21時ごろのInstagram公式の値</p></header>
+  <p class="take" id="take"></p>
+  <section class="tiles" id="tiles"></section>
+  <section class="card" id="patterns">
+    <h2>パターン別　1本ずつのサムネイルとインサイト</h2>
+    <p class="note">撮影者・演者・撮影方法のパターンで切り替えます。赤い枠が撮影方法「流れ」。サムネイルか題名を押すとInstagramの投稿が開きます。</p>
+    <div class="tabs" role="tablist" aria-label="パターン" id="tabs"></div>
+    <div class="sum" id="sum"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+  <section class="card">
+    <h2>誰が撮って、誰が出て、どう撮ったか（1本あたりの平均）</h2>
+    <p class="note">赤が撮影方法「流れ」。本数が1〜3本のパターンは目安です。</p>
+    <div class="tbox"><table><thead><tr><th class="l">撮影者</th><th class="l">演者</th><th class="l">撮影方法</th><th>本数</th><th>平均再生</th><th>平均リーチ</th><th>平均視聴（秒）</th><th>飛ばされた割合</th><th>平均保存</th><th>平均シェア</th></tr></thead><tbody id="gt"></tbody></table></div>
+  </section>
+  <section class="card">
+    <h2>仮説と答え（この16本の数字から）</h2>
+    <div class="hyp" id="hyp"></div>
+  </section>
+  <section class="card">
+    <h2>数字の意味</h2>
+    <ul class="defs">
+      <li>再生：リールが再生された回数（くり返し再生も含む）。リーチ：見たアカウントの数。</li>
+      <li>平均視聴：1回の再生あたり、平均で何秒見られたか。</li>
+      <li>飛ばされた割合：再生のうち、最初の数秒でスワイプして飛ばされた割合（Instagramの「スキップ率」）。低いほど冒頭でつかめている。</li>
+      <li>撮影方法：ショートドラマ＝台本と演技があるドラマ風の撮り方／流れ＝検証の流れをそのまま撮る撮り方。</li>
+      <li>投稿から日が浅い投稿（10/29〜31）は、再生数がまだ伸びます。平均視聴と飛ばされた割合は投稿直後でも比べられます。</li>
+    </ul>
+  </section>
+</div>
+<script type="application/json" id="data">[{"code": "Dd0yVR6pVm4", "url": "https://www.instagram.com/reel/Dd0yVR6pVm4/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-09-28 17:47", "weekday": "月", "hour": 17, "days": 33.2, "views": 86070, "reach": 68751, "likes": 477, "comments": 60, "saves": 82, "shares": 31, "avg_watch_sec": 24.2, "skip_rate": 41.8, "title": "【肩の可動域、どう変わる？】", "thumb": "thumbs/Dd0yVR6pVm4.jpg"}, {"code": "Dd3UtDWpLKA", "url": "https://www.instagram.com/reel/Dd3UtDWpLKA/", "group": "さとし|トンカツ|流れ", "shooter": "さとし", "performer": "トンカツ", "style": "流れ", "posted": "2026-09-29 17:24", "weekday": "火", "hour": 17, "days": 32.2, "views": 19308, "reach": 14730, "likes": 122, "comments": 2, "saves": 14, "shares": 3, "avg_watch_sec": 8.3, "skip_rate": 63.9, "title": "【肩の柔軟バトル🔥】", "thumb": "thumbs/Dd3UtDWpLKA.jpg"}, {"code": "Dd_WcXOpzvv", "url": "https://www.instagram.com/reel/Dd_WcXOpzvv/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-10-02 20:14", "weekday": "金", "hour": 20, "days": 29.1, "views": 30336, "reach": 24236, "likes": 233, "comments": 1, "saves": 17, "shares": 20, "avg_watch_sec": 28.1, "skip_rate": 49.6, "title": "【ヤラセを疑うレベル…？🔥】", "thumb": "thumbs/Dd_WcXOpzvv.jpg"}, {"code": "DeJfFAHpnLy", "url": "https://www.instagram.com/reel/DeJfFAHpnLy/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-10-06 18:42", "weekday": "火", "hour": 18, "days": 25.1, "views": 53654, "reach": 43414, "likes": 448, "comments": 8, "saves": 33, "shares": 53, "avg_watch_sec": 27.6, "skip_rate": 42.2, "title": "【板橋高校サッカー部でスローイン検証⚽️🔥】", "thumb": "thumbs/DeJfFAHpnLy.jpg"}, {"code": "DeOe23EJFlX", "url": "https://www.instagram.com/reel/DeOe23EJFlX/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-10-08 17:16", "weekday": "木", "hour": 17, "days": 23.2, "views": 79465, "reach": 62218, "likes": 542, "comments": 2, "saves": 28, "shares": 11, "avg_watch_sec": 26.3, "skip_rate": 35.7, "title": "今回は、フルスイング埼京ポニーさんの選手にご協力いただき、", "thumb": "thumbs/DeOe23EJFlX.jpg"}, {"code": "DeRXNVTpmbK", "url": "https://www.instagram.com/reel/DeRXNVTpmbK/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-10-09 20:07", "weekday": "金", "hour": 20, "days": 22.1, "views": 85805, "reach": 71586, "likes": 458, "comments": 2, "saves": 37, "shares": 15, "avg_watch_sec": 30.1, "skip_rate": 29.6, "title": "【スイングスピード対決⚾️🔥】", "thumb": "thumbs/DeRXNVTpmbK.jpg"}, {"code": "DeT_pYFpcNJ", "url": "https://www.instagram.com/reel/DeT_pYFpcNJ/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-10-10 20:39", "weekday": "土", "hour": 20, "days": 21.0, "views": 71924, "reach": 50523, "likes": 390, "comments": 2, "saves": 54, "shares": 25, "avg_watch_sec": 34.1, "skip_rate": 38.9, "title": "【大雨の中、吉田翔投手の球速を検証⚾️🌧️】", "thumb": "thumbs/DeT_pYFpcNJ.jpg"}, {"code": "DeZG5WpJeZX", "url": "https://www.instagram.com/reel/DeZG5WpJeZX/", "group": "さとし|さおり社長|ショートドラマ", "shooter": "さとし", "performer": "さおり社長", "style": "ショートドラマ", "posted": "2026-10-12 20:19", "weekday": "月", "hour": 20, "days": 19.0, "views": 69480, "reach": 52833, "likes": 306, "comments": 0, "saves": 46, "shares": 25, "avg_watch_sec": 32.5, "skip_rate": 36.4, "title": "⚽️【シュート距離は変わるのか？】", "thumb": "thumbs/DeZG5WpJeZX.jpg"}, {"code": "Deg9ZnRJPFz", "url": "https://www.instagram.com/reel/Deg9ZnRJPFz/", "group": "さとし|トンカツ|ショートドラマ", "shooter": "さとし", "performer": "トンカツ", "style": "ショートドラマ", "posted": "2026-10-15 21:29", "weekday": "木", "hour": 21, "days": 16.0, "views": 129670, "reach": 101781, "likes": 1035, "comments": 27, "saves": 56, "shares": 52, "avg_watch_sec": 34.8, "skip_rate": 31.0, "title": "⚽️【シュートスピードは変わるのか？】", "thumb": "thumbs/Deg9ZnRJPFz.jpg"}, {"code": "DeltqmQJl9q", "url": "https://www.instagram.com/reel/DeltqmQJl9q/", "group": "さとし|さおり社長|ショートドラマ", "shooter": "さとし", "performer": "さおり社長", "style": "ショートドラマ", "posted": "2026-10-17 17:50", "weekday": "土", "hour": 17, "days": 14.2, "views": 179887, "reach": 136494, "likes": 698, "comments": 48, "saves": 121, "shares": 53, "avg_watch_sec": 22.5, "skip_rate": 37.9, "title": "⚾️【一塁到達タイムは変わるのか？】", "thumb": "thumbs/DeltqmQJl9q.jpg"}, {"code": "DeosM1Ep3SC", "url": "https://www.instagram.com/reel/DeosM1Ep3SC/", "group": "さとし|さおり社長|ショートドラマ", "shooter": "さとし", "performer": "さおり社長", "style": "ショートドラマ", "posted": "2026-10-18 21:36", "weekday": "日", "hour": 21, "days": 13.0, "views": 108526, "reach": 89657, "likes": 382, "comments": 15, "saves": 63, "shares": 14, "avg_watch_sec": 33.1, "skip_rate": 33.7, "title": "⚾️【遠投距離は変わるのか？】", "thumb": "thumbs/DeosM1Ep3SC.jpg"}, {"code": "Deq683rJDuW", "url": "https://www.instagram.com/reel/Deq683rJDuW/", "group": "さとし|さおり社長|ショートドラマ", "shooter": "さとし", "performer": "さおり社長", "style": "ショートドラマ", "posted": "2026-10-19 18:22", "weekday": "月", "hour": 18, "days": 12.1, "views": 139245, "reach": 111504, "likes": 1045, "comments": 32, "saves": 93, "shares": 56, "avg_watch_sec": 27.8, "skip_rate": 29.9, "title": "⚾️【キャッチャーの送球は変わるのか？】", "thumb": "thumbs/Deq683rJDuW.jpg"}, {"code": "De4D93CJjzx", "url": "https://www.instagram.com/reel/De4D93CJjzx/", "group": "たろう|さおり社長|流れ", "shooter": "たろう", "performer": "さおり社長", "style": "流れ", "posted": "2026-10-24 20:50", "weekday": "土", "hour": 20, "days": 7.0, "views": 21826, "reach": 15307, "likes": 167, "comments": 0, "saves": 21, "shares": 9, "avg_watch_sec": 15.7, "skip_rate": 58.2, "title": "⚾️【スイングスピードは変わるのか？】", "thumb": "thumbs/De4D93CJjzx.jpg"}, {"code": "DfEzTlQpE8W", "url": "https://www.instagram.com/reel/DfEzTlQpE8W/", "group": "ゆうさく|トンカツ|流れ", "shooter": "ゆうさく", "performer": "トンカツ", "style": "流れ", "posted": "2026-10-29 19:34", "weekday": "木", "hour": 19, "days": 2.1, "views": 24880, "reach": 18387, "likes": 168, "comments": 9, "saves": 11, "shares": 1, "avg_watch_sec": 12.3, "skip_rate": 42.9, "title": "最速150km/hを記録し、", "thumb": "thumbs/DfEzTlQpE8W.jpg"}, {"code": "DfHp1uOJmc9", "url": "https://www.instagram.com/reel/DfHp1uOJmc9/", "group": "ゆうさく|トンカツ|流れ", "shooter": "ゆうさく", "performer": "トンカツ", "style": "流れ", "posted": "2026-10-30 22:09", "weekday": "金", "hour": 22, "days": 1.0, "views": 18225, "reach": 13143, "likes": 133, "comments": 0, "saves": 8, "shares": 2, "avg_watch_sec": 12.7, "skip_rate": 54.4, "title": "最速150km/hを記録し、", "thumb": "thumbs/DfHp1uOJmc9.jpg"}, {"code": "DfJ1PIXpkQG", "url": "https://www.instagram.com/reel/DfJ1PIXpkQG/", "group": "ゆうさく|トンカツ|流れ", "shooter": "ゆうさく", "performer": "トンカツ", "style": "流れ", "posted": "2026-10-31 18:27", "weekday": "土", "hour": 18, "days": 0.1, "views": 5270, "reach": 3654, "likes": 39, "comments": 0, "saves": 1, "shares": 0, "avg_watch_sec": 10.7, "skip_rate": 59.5, "title": "元プロ野球選手・井納翔一さんにご協力いただき、", "thumb": "thumbs/DfJ1PIXpkQG.jpg"}]</script>
+<script>
+const R=JSON.parse(document.getElementById('data').textContent);
+const fmt=(n)=>Math.round(n).toLocaleString('ja-JP');const avg=(a,f)=>a.reduce((s,r)=>s+r[f],0)/a.length;const r1=(v)=>Math.round(v*10)/10;
+const el=(t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e};
+const PATS=[['all','すべて','16本'],['さとし|さおり社長|ショートドラマ','撮影者 さとし／演者 さおり社長','ショートドラマ'],['さとし|トンカツ|ショートドラマ','撮影者 さとし／演者 トンカツ','ショートドラマ'],['さとし|トンカツ|流れ','撮影者 さとし／演者 トンカツ','流れ'],['たろう|さおり社長|流れ','撮影者 たろう／演者 さおり社長','流れ'],['ゆうさく|トンカツ|流れ','撮影者 ゆうさく／演者 トンカツ','流れ']];
+const G={};R.forEach(r=>{(G[r.group]=G[r.group]||[]).push(r)});
+const gs=(k)=>{const a=G[k];return{n:a.length,views:avg(a,'views'),reach:avg(a,'reach'),watch:r1(avg(a,'avg_watch_sec')),skip:r1(avg(a,'skip_rate')),saves:r1(avg(a,'saves')),shares:r1(avg(a,'shares'))}};
+const kind=(s)=>R.filter(r=>r.style===s);
+const fl=kind('流れ'),sd=kind('ショートドラマ');
+document.getElementById('take').innerHTML='';
+const tk=document.getElementById('take');
+tk.append('撮影方法「流れ」の'+fl.length+'本は平均再生 ',el('b',null,fmt(avg(fl,'views'))),' 回で、「ショートドラマ」の'+sd.length+'本（平均 '+fmt(avg(sd,'views'))+' 回）を大きく下回っています。最初の数秒で飛ばされる割合も、流れは ',el('b',null,r1(avg(fl,'skip_rate'))+'%'),'、ショートドラマは '+r1(avg(sd,'skip_rate'))+'%です。');
+const tiles=[['再生数の合計',fmt(R.reduce((s,r)=>s+r.views,0))],['本数',R.length+'本'],['1本あたりの平均再生',fmt(avg(R,'views'))],['平均視聴（1本平均）',r1(avg(R,'avg_watch_sec'))+'秒'],['保存の合計',fmt(R.reduce((s,r)=>s+r.saves,0))]];
+tiles.forEach(([k,v])=>{const d=el('div','tile');d.append(el('span',null,k),el('b',null,v));document.getElementById('tiles').append(d)});
+let pat='all';
+const tabsBox=document.getElementById('tabs');
+PATS.forEach(([k,a,b],i)=>{const n=k==='all'?R.length:G[k].length;const t=el('button','tab');t.type='button';t.setAttribute('role','tab');t.id='tab-'+i;t.setAttribute('aria-selected',i===0?'true':'false');t.append(a,el('small',null,(k==='all'?'':b+'・')+n+'本'));t.onclick=()=>{pat=k;tabsBox.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===t?'true':'false'));draw()};tabsBox.append(t)});
+function draw(){
+  const rs=R.filter(r=>pat==='all'||r.group===pat).sort((a,b)=>a.posted.localeCompare(b.posted));
+  const sum=document.getElementById('sum');sum.replaceChildren();
+  [['本数',rs.length+'本'],['平均再生',fmt(avg(rs,'views'))],['平均リーチ',fmt(avg(rs,'reach'))],['平均視聴（秒）',r1(avg(rs,'avg_watch_sec'))],['飛ばされた割合',r1(avg(rs,'skip_rate'))+'%'],['平均保存',r1(avg(rs,'saves'))]].forEach(([k,v])=>{const d=el('div');d.append(el('span',null,k),el('b',null,String(v)));sum.append(d)});
+  const box=document.getElementById('cards');box.replaceChildren();
+  rs.forEach(r=>{const c=el('article','rc'+(r.style==='流れ'?' flow':''));
+    const a=el('a');a.href=r.url;a.target='_blank';a.rel='noopener';const im=el('img');im.src=r.thumb;im.alt=r.title;im.loading='lazy';a.append(im);c.append(a);
+    const bd=el('div','bd');const tt=el('div','tt');const ta=el('a',null,r.title);ta.href=r.url;ta.target='_blank';ta.rel='noopener';tt.append(ta);
+    const pt=el('div','pat');pt.append('撮影者 ',el('b',null,r.shooter+'さん'),'／演者 ',el('b',null,r.performer),'／',el('b',r.style==='流れ'?'fl':null,r.style));
+    const dl=el('dl');[['リーチ',fmt(r.reach)],['いいね',fmt(r.likes)],['コメント',r.comments],['保存',r.saves],['シェア',r.shares],['平均視聴',r.avg_watch_sec+'秒'],['飛ばされた割合',r.skip_rate+'%']].forEach(([k,v])=>dl.append(el('dt',null,k),el('dd',null,String(v))));
+    bd.append(tt,el('div','mt',r.posted+'（'+r.weekday+'）・投稿から'+r.days+'日'),pt,el('div','big',fmt(r.views)+' 再生'),dl);c.append(bd);box.append(c)});
+}
+draw();
+const gt=document.getElementById('gt');const keys=Object.keys(G).sort((a,b)=>gs(b).views-gs(a).views);const mx=Math.max(...keys.map(k=>gs(k).views));
+keys.forEach(k=>{const s=gs(k),[sh,pf,st]=k.split('|');const tr=el('tr',st==='流れ'?'flow':null);
+  const tdv=el('td',null,fmt(s.views));const b=el('span','bar');b.style.width=Math.max(3,90*s.views/mx)+'px';tdv.append(b);
+  tr.append(el('td','l',sh+'さん'),el('td','l',pf),el('td','l',st),el('td',null,s.n),tdv,el('td',null,fmt(s.reach)),el('td',null,s.watch),el('td',null,s.skip+'%'),el('td',null,s.saves),el('td',null,s.shares));gt.append(tr)});
+const H=document.getElementById('hyp');
+const q=(t,ans)=>{const d=el('div');d.append(el('div','q',t));const p=el('p','a');ans.forEach(x=>p.append(x));d.append(p);H.append(d)};
+const a=gs('さとし|トンカツ|流れ'),b=gs('たろう|さおり社長|流れ'),c=gs('ゆうさく|トンカツ|流れ'),ss=gs('さとし|さおり社長|ショートドラマ'),st=gs('さとし|トンカツ|ショートドラマ');
+q('仮説1：流れ撮影は、誰が撮影しても微妙',[el('span','ok','合っています。'),'流れは撮影者3人とも平均再生が2万前後（さとし '+fmt(a.views)+'・たろう '+fmt(b.views)+'・ゆうさく '+fmt(c.views)+'）で、ショートドラマ（平均 '+fmt(avg(sd,'views'))+'）を大きく下回ります。平均視聴も '+a.watch+'〜'+b.watch+'秒と短く（ショートドラマは約'+r1(avg(sd,'avg_watch_sec'))+'秒）、最初の数秒で飛ばされる割合も '+c.skip+'〜'+a.skip+'%と高めです。ゆうさくさんの3本は投稿直後でまだ伸びますが、見られ方の数字は直後でも比べられます。']);
+q('仮説2：演者はトンカツとさおり社長、どちらが良さそう？',[el('span','ok','さおり社長の方が良さそうです。'),'同じさとしさんのショートドラマで比べると、さおり社長は平均 '+fmt(ss.views)+' 回、トンカツは '+fmt(st.views)+' 回（約'+r1(ss.views/st.views)+'倍）。保存もさおり社長が多い（平均 '+ss.saves+' 対 '+st.saves+'）。',el('span','mid','ただし'),'さおり社長の4本は10/12〜19の投稿で、アカウントが伸びた時期と重なるため、時期の影響も混ざっています。']);
+q('仮説3・4：ショートドラマはそうまさんよりさとしさん／ゆうさくさんのショートドラマには及ばない',['この16本には、そうまさん撮影の動画と、ゆうさくさんのショートドラマが入っていないため、このレポートでは比べていません。']);
+</script>
+
+</body></html>
